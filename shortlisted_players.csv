@@ -1,0 +1,21 @@
+rank,role,player_id,player_name,style,dob,age_as_of_nov_2026,country,age_bracket,development_comp,data_source,auction_tag,is_ipl_eligible,pressure_score,pressure_runs,pressure_balls,pressure_strike_rate,pressure_boundary_pct,pressure_dot_pct,pressure_overs,pressure_economy,pressure_wickets
+1,Batter,37311,Shiv Mathur,RHB,2008-01-20,18,Hong Kong,Under-20 fallback,Asia Cup Rising Stars 2025,Unstop Data Pack,Overseas U-19 Target,True,93.75,62,53,116.98,15.09,45.28,,,
+2,Batter,1450404,Ben Mayes,RHB,2007-11-21,19,England,Under-19 tournament verified,ICC Men's U19 World Cup 2026,2026 ICC U-19 World Cup Supplement,Overseas U-19 Target,True,88.0,444,,112.41,57.21,,,,
+3,Batter,51791,Vaibhav Sooryavanshi,LHB,2011-03-27,15,India,Under-19 tournament verified,ICC Men's U19 World Cup 2026,2026 ICC U-19 World Cup Supplement,Current RR Squad Benchmark (Retained),True,84.5,439,,169.5,78.36,,,,
+4,Batter,1465016,Faisal Shinozada,RHB,2008-02-28,18,Afghanistan,Under-19 tournament verified,ICC Men's U19 World Cup 2026,2026 ICC U-19 World Cup Supplement,Overseas U-19 Target,True,71.5,435,,107.14,54.71,,,,
+5,Batter,1427848,Thomas Rew,RHB / WK,2007-11-29,19,England,Under-19 tournament verified,ICC Men's U19 World Cup 2026,2026 ICC U-19 World Cup Supplement,Overseas U-19 Target,True,64.5,330,,105.1,56.36,,,,
+6,Batter,1447913,Viran Chamuditha,LHB,2008-04-10,18,Sri Lanka,Under-19 tournament verified,ICC Men's U19 World Cup 2026,2026 ICC U-19 World Cup Supplement,Overseas U-19 Target,True,62.5,310,,122.05,55.48,,,,
+7,Batter,1450375,Jason Rowles,LHB,2008-04-14,18,South Africa,Under-19 tournament verified,ICC Men's U19 World Cup 2026,2026 ICC U-19 World Cup Supplement,Overseas U-19 Target,True,61.0,280,,112.0,55.71,,,,
+8,Batter,60689,Zawad Abrar,RHB,2006-11-07,20,Bangladesh,Under-20 fallback,Asia Cup Rising Stars 2025,Unstop Data Pack,Overseas U-19 Target,True,56.25,64,68,94.12,11.76,63.24,,,
+9,Batter,1467071,Nitesh Samuel,LHB,2006-09-02,20,Australia,Under-19 tournament verified,ICC Men's U19 World Cup 2026,2026 ICC U-19 World Cup Supplement,Overseas U-19 Target,True,38.5,275,,67.4,24.0,,,,
+10,Batter,1430473,Abhigyan Kundu,LHB / WK,2008-04-30,18,India,Under-19 tournament verified,ICC Men's U19 World Cup 2026,2026 ICC U-19 World Cup Supplement,Uncapped Indian Target,True,21.0,239,,87.55,50.21,,,,
+1,Bowler,1447857,Nooristani Omarzai,RFM,2006-09-08,20,Afghanistan,Under-19 tournament verified,ICC Men's U19 World Cup 2026,2026 ICC U-19 World Cup Supplement,Overseas U-19 Target,True,87.0,,,,,,48.0,4.23,14
+2,Bowler,1461796,Manny Lumsden,RF,2008-11-03,18,England,Under-19 tournament verified,ICC Men's U19 World Cup 2026,2026 ICC U-19 World Cup Supplement,Overseas U-19 Target,True,71.0,,,,,,52.3,4.9,16
+3,Bowler,51910,Iqbal Hossain Emon,RFM,2006-12-05,20,Bangladesh,Under-19 tournament verified,ICC Men's U19 World Cup 2026,2026 ICC U-19 World Cup Supplement,Overseas U-19 Target,True,69.5,,,,,,34.0,4.03,11
+4,Bowler,1448101,Al Fahad,RFM,2006-10-20,20,Bangladesh,Under-19 tournament verified,ICC Men's U19 World Cup 2026,2026 ICC U-19 World Cup Supplement,Overseas U-19 Target,True,68.0,,,,,,38.0,4.66,12
+5,Bowler,1462947,Will Byrom,RFM,2008-06-10,18,England,Under-19 tournament verified,ICC Men's U19 World Cup 2026,2026 ICC U-19 World Cup Supplement,Overseas U-19 Target,True,62.0,,,,,,28.5,3.64,10
+6,Bowler,1457042,Henil Patel,RFM,2007-02-28,19,India,Under-19 tournament verified,ICC Men's U19 World Cup 2026,2026 ICC U-19 World Cup Supplement,Uncapped Indian Target,True,54.5,,,,,,43.5,4.45,11
+7,Bowler,1462936,Charles Lachmund,RFM,2007-07-11,19,Australia,Under-19 tournament verified,ICC Men's U19 World Cup 2026,2026 ICC U-19 World Cup Supplement,Overseas U-19 Target,True,51.5,,,,,,38.0,5.16,12
+8,Bowler,1457020,RS Ambrish,RFM,2007-05-28,19,India,Under-19 tournament verified,ICC Men's U19 World Cup 2026,2026 ICC U-19 World Cup Supplement,Uncapped Indian Target,True,41.25,,,,,,46.0,4.93,11
+9,Bowler,1457051,Ralphie Albert,SLA,2007-10-16,19,England,Under-19 tournament verified,ICC Men's U19 World Cup 2026,2026 ICC U-19 World Cup Supplement,Overseas U-19 Target,True,24.75,,,,,,57.0,4.88,10
+10,Bowler,1467499,Vitel Lawes,SLA,2007-03-03,19,West Indies,Under-19 tournament verified,ICC Men's U19 World Cup 2026,2026 ICC U-19 World Cup Supplement,Overseas U-19 Target,True,20.5,,,,,,46.0,4.93,10

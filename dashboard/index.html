@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SupeRR Selector | Rajasthan Royals</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="fallback_data.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="loadingScreen" class="loading-screen" role="status" aria-live="polite">
+    <div class="loader-mark">RR</div>
+    <div class="loader-ball"></div>
+    <p>Loading the SupeRR shortlist<span class="loading-dots">...</span></p>
+    <small>Reading pressure-performance data</small>
+  </div>
+  <header class="hero"><div><span class="eyebrow">RAJASTHAN ROYALS · SUPERR SELECTOR</span><h1>Pressure finds the player.</h1><p>A transparent shortlist of development-level performers for the moments that decide T20 matches.</p></div><div class="hero-mark">RR</div></header>
+  <main class="shell">
+    <div class="flow-guide" aria-label="Dashboard steps"><span class="flow-step active"><b>1</b> Pick a pool</span><i></i><span class="flow-step"><b>2</b> Refine the shortlist</span><i></i><span class="flow-step"><b>3</b> Compare the fit</span></div>
+    <section class="controls">
+      <div class="section-kicker">Start with a player pool</div><div class="tabs"><button class="tab active" data-role="all">Combined XI</button><button class="tab" data-role="Batter">Top 10 Batters</button><button class="tab" data-role="Bowler">Top 10 Bowlers</button></div>
+      <div class="filters"><label>Search <input id="search" placeholder="Player name"></label><label>Style <select id="style"><option value="">All styles</option></select></label><label>Data source <select id="source"><option value="">All sources</option><option>Unstop Data Pack</option><option>Verified U-19 Match Archive</option></select></label><label><input id="indiaOnly" type="checkbox"> India U-19 only</label><label>Min Pressure Score <input id="score" type="range" min="0" max="100" value="0"><output id="scoreValue">0</output></label></div>
+      <div class="filter-note"><span class="filter-dot"></span><span id="filterStatus">Showing the full shortlist</span><button id="clearFilters" class="clear-filters" type="button">Clear filters</button></div>
+    </section>
+    <section class="summary"><div><strong id="playerCount">20</strong><span>shortlisted players</span></div><div><strong id="bestScore">—</strong><span>highest pressure score</span></div><div><strong id="coverage">—</strong><span>matches covered</span></div></section>
+    <section class="grid"><div class="card table-card"><div class="card-head"><h2 id="tableTitle">Combined XI / Squad Builder</h2><span id="sortHint">Click a header to sort</span></div><div class="table-wrap"><table><thead><tr><th data-key="rank">Rank</th><th data-key="player_name">Player</th><th data-key="role">Role</th><th data-key="dob">DOB / age</th><th data-key="country">Country</th><th data-key="data_source">Source</th><th data-key="auction_tag">Auction tag</th><th data-key="style">Style</th><th data-key="pressure_score">Score</th><th data-key="key">Pressure output</th></tr></thead><tbody id="players"></tbody></table></div></div>
+      <div class="side"><div class="card"><div class="section-kicker">Compare the fit</div><h2>Head-to-head</h2><p class="helper">Choose two players to see how their pressure profiles differ.</p><div class="duo"><select id="playerA" aria-label="First player"></select><select id="playerB" aria-label="Second player"></select></div><canvas id="radar"></canvas></div><div class="card insight"><div class="section-kicker">Scouting lens</div><h2>How to read it</h2><p id="method"></p></div></div></section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
