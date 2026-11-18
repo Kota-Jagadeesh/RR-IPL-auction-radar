@@ -166,25 +166,25 @@ def build_bowling(ball, eligible):
 
 def make_chart(batters, bowlers, ball):
     plt.style.use("seaborn-v0_8-whitegrid")
-    fig, axes = plt.subplots(1, 2, figsize=(15, 6), dpi=220)
+    fig, axes = plt.subplots(1, 2, figsize=(15, 6), dpi=300)
     bat_avg = [ball.loc[ball.pressure, "runs"].sum() / max(ball.loc[ball.pressure, "legal_ball"].sum(), 1) * 100,
                100 * ball.loc[ball.pressure & ball.is_four, "is_four"].sum() / max(ball.loc[ball.pressure, "legal_ball"].sum(), 1)]
     axes[0].barh(batters.striker_name, batters.pressure_strike_rate, color="#EA1A85")
     axes[0].axvline(bat_avg[0], color="#071D49", ls="--", label="All-player pressure average")
     axes[0].set_title("Batters: pressure strike rate")
     axes[0].set_xlabel("Runs per 100 legal balls")
-    axes[0].legend(loc="lower right", fontsize=8)
+    axes[0].legend(loc="upper center", bbox_to_anchor=(0.5, 1.13), fontsize=8, frameon=False)
     axes[0].invert_yaxis()
     bowl_avg = ball.loc[ball.pressure, "bowler_run"].sum() / max(ball.loc[ball.pressure, "legal_ball"].sum(), 1) * 6
     axes[1].barh(bowlers.bowler_name, bowlers.pressure_economy, color="#071D49")
     axes[1].axvline(bowl_avg, color="#EA1A85", ls="--", label="All-player pressure average")
     axes[1].set_title("Bowlers: pressure economy")
     axes[1].set_xlabel("Runs per over (lower is better)")
-    axes[1].legend(loc="lower right", fontsize=8)
+    axes[1].legend(loc="upper center", bbox_to_anchor=(0.5, 1.13), fontsize=8, frameon=False)
     axes[1].invert_yaxis()
     fig.suptitle("SupeRR Selector: pressure performers", fontsize=16, fontweight="bold")
-    fig.tight_layout()
-    fig.savefig(ASSETS / "pressure_comparison.png", bbox_inches="tight")
+    fig.tight_layout(rect=(0, 0, 1, 0.88))
+    fig.savefig(ASSETS / "pressure_comparison.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
 
 
